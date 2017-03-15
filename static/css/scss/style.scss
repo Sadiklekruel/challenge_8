@@ -1,1 +1,16 @@
-
+$primary-color: #3097d1;
+header .navbar {
+    background-color: $primary-color ;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.btn-default {
+    border-color: $primary-color;
+    color: $primary-color;
+    background-color: white;
+}
+.profile {
+    
+    width: 33%;
+}
