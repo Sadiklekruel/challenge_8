@@ -12,4 +12,16 @@ header .navbar {
 .profile {
   width: 33%; }
 
+aside article:not(.col-sm-12) {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center; }
+
+body {
+  background-color: lightgrey; }
+
+aside, main {
+  background-color: white; }
+
 /*# sourceMappingURL=style.css.map */
